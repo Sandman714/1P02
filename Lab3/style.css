@@ -7,7 +7,12 @@ body{
 	font-size:50px;
 }
 
-#jollyGreen{
-	color:green;
-	text-decoration:underline;
+#greenText{
+	color:red;
+	text-transform: uppercase;
+
+	font-family:Arial
+}
+
+#firstHeader {
 }
