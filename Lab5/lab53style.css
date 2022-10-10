@@ -1,0 +1,41 @@
+body{
+	color:black;
+	background-color:green;
+	font-weight: bold;
+}
+
+#wrapper{
+	width:800px;
+	margin:0 auto;
+	background-color:green;
+}
+
+#content1 {
+	position: absolute;
+	left: 100px;
+	top: 100px;
+	width: 250px;
+	min-height: 250px;
+	background-color: blue;
+	padding: 0px;
+  line-height: 50px;
+}
+#content2 {
+	position: absolute;
+	left: 400px;
+	top: 350px;
+	width: 250px;
+	min-height: 250px;
+	background-color: yellow;
+	padding: 0px;
+}
+#content3 {
+	position: absolute;
+	left: 700px;
+	top: 100px;
+	width: 250px;
+	min-height: 250px;
+	background-color: red;
+	padding: 0px;
+  line-height: 50px;
+}

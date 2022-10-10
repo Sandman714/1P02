@@ -1,0 +1,53 @@
+body{
+	color:black;
+	background-color:green;
+	font-weight: bold;
+}
+
+#wrapper{
+	width:800px;
+	margin:0 auto;
+	background-color:green;
+}
+
+#header{
+	height:75px;
+	text-align:center;
+background-color: red
+}
+
+#leftnav{
+	float:left;
+	width:200px;
+	height: 100px;
+	background-color:pink;
+	padding:0px;
+	line-height: 90px;
+
+}
+#rightnav{
+	float:right;
+	width:600px;
+	height:100px;
+	background-color:orange;
+	padding:0px;
+	line-height: 90px;
+}
+
+#content{
+	text-align: left;
+	height: 500px;
+	background-color:blue;
+
+
+}
+
+
+#footer{
+	text-align:left;
+	height:50px;
+	background-color: yellow;
+
+}
+
+/* not sure if the top bar is displaying right, i sent my website to my friend and he does not see it, but it shows up on my pc. If it displays, how od i correct it, cant figure it out. */
