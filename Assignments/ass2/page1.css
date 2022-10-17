@@ -1,0 +1,54 @@
+/* Include at least one element that is positioned absolutely, relatively and fixed
+Create at least one CSS class that uses nested selectors
+Create at least one CSS class that uses grouped selectors
+Demonstrate the concepts of the “Box” model (margin, border, padding, content) at least once
+*/
+
+body{
+	color:black;
+	background-color:#EBEBEB;
+}
+
+h2,ul,ol{color:#1EDFD3} /* Grouped Selectors */
+
+.listinfo{color:black;background-color: #F26EDE} /* Nesting selectors*/
+
+#header{
+text-align: center;
+background-color: green;
+vertical-align: middle;
+}
+
+#transforms{
+	text-align: left;
+  text-transform: uppercase;
+}
+
+#colourchange{
+  color: red;
+}
+
+.fontchange { font-family: fantasy;}
+
+#sizechange{
+  font-size: 30px;
+}
+
+#abspos{
+  position: absolute;
+  border: 2px solid pink;
+}
+#relpos{
+  position: relative;
+  right: 10px;
+  border: 6px dotted green;
+  top: 20px;
+  text-align: center;
+}
+
+#fixpos{
+  position: fixed;
+  border: 10px solid blue;
+  right: 10px;
+  bottom: 20px;
+}
