@@ -31,7 +31,7 @@ font-family: sans-serif;
     height: 100px;
     text-align: center;
     	padding:0px;
-      line-height: 100px
+      line-height: 50px
 }
 
 .Winter {
@@ -79,7 +79,7 @@ font-family: sans-serif;
 }
 #fimage2 {
 	position: absolute;
-	left: 300px;
+	left: 400px;
 	top: 250px;
   width: 150px;
 	min-height: 250px;
@@ -88,7 +88,7 @@ font-family: sans-serif;
 }
 #fimage3{
 	position: absolute;
-	left: 800px;
+	left: 1200px;
 	top: 250px;
   width: 150px;
 	min-height: 250px;
@@ -98,7 +98,7 @@ font-family: sans-serif;
 }
 #fimage4{
 	position: absolute;
-	left:1100px;
+	left:1700px;
 	top: 125px;
   width: 150px;
 	min-height: 250px;
@@ -128,7 +128,7 @@ font-family: sans-serif;
 }
 #wimage3{
 	position: absolute;
-	left: 800px;
+	left: 580px;
   top: 550px;
   width: 200px;
   min-height: 350px;
@@ -138,11 +138,31 @@ font-family: sans-serif;
 }
 #wimage4{
 	position: absolute;
-	left:1100px;
+	right: 35px;
   top: 550px;
   width: 200px;
   min-height: 350px;
-	background-color: #CBCBCB;
+	background-color: #B3DAF1;
+	padding: 5px;
+  line-height: 50px;
+}
+#wimage5{
+	position: absolute;
+	right: 300px;
+  top: 550px;
+  width: 200px;
+  min-height: 350px;
+	background-color: purple;
+	padding: 5px;
+  line-height: 50px;
+}
+#wimage6{
+	position: absolute;
+	right: 580px;
+  top: 550px;
+  width: 200px;
+  min-height: 350px;
+	background-color: brown;
 	padding: 5px;
   line-height: 50px;
 }
