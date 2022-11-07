@@ -3,36 +3,47 @@ body{
 }
 
 .wrapper{
-    width: 1200px;
+    width: 1600px;
     margin: 0 auto;
     background-color: white;
+    font-family: sans-serif;
 }
 
 .header{
-width: 1200px;
-height: 160px;
-color: purple;
-background-color: yellow;
-
+width: 1600px;
+height: 50px;
+color: Black;
+background-color:#d77d42;
+text-align: center;
+font-family: sans-serif;
 }
 
-.rightBody {
-    width: 800px;
-    height: 700px;
-    background-color: purple;
-    float: right;
+.Fall {
+    width: 1600px;
+    height:600px;
+    background-color: #cc99ff;
+}
+.Falltext{
+    width: 1600px;
+    height: 600px;
+    text-align: center;
 }
 
-.rightText{
-    width: 780px;
-    height: 330px;
-    margin: 10px;
-    background-color: green;
+.Winter {
+    width: 1600px;
+    height:400px;
+    background-color: #1ba659;
+}
+.Wintertext{
+    width: 1600px;
+    height: 400px;
+    background-color:  #1ba659;
+    text-align: center;
 }
 
 .footer{
     clear: both;
-    width: 1200px;
-    height: 40px;
-    background-color: grey;
+    width: 1600px;
+    height: 200px;
+    background-color: LightGray;
 }
