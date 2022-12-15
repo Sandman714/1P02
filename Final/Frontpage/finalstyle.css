@@ -1,0 +1,18 @@
+}
+.navigation{
+  width: 80%;
+  position: sticky;
+  margin: 20px auto;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+
+}
+
+.brandlogo{
+  width:150px;
+  height:100px;
+  position:absolute; left: -192px; top: -20px;
+
+}
