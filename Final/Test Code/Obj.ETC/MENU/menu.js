@@ -40,7 +40,7 @@
             return button;
         }
 
-
+// this compensates the hight when browser resets instead of hardocding a breakpoint //
         function reflowWrapSet(wrap_set) {
             const heights = [...wrap_set.children].map(getHeight);
 
