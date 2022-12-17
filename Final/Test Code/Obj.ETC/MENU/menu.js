@@ -1,5 +1,5 @@
-<script type="application/javascript">
-(() => {
+
+    (() => {
         "use strict";
 
         const getHeight = (element) => element.getBoundingClientRect().height;
@@ -13,6 +13,9 @@
             click_event.preventDefault();
 
             const button = click_event.originalTarget;
+
+// This works on my pc but for some reason it does not work on my freinds. I am using firefox, and he is using chrome... Not sure if this is my side or anything of issue?
+ // this button makes it so it activates and deactives pages
 
             button.target_page_set.forEach((page) => {
                 page.classList.remove("active")
@@ -32,15 +35,14 @@
             button.append(text);
             button.addEventListener("click", switchPage);
 
-            button.target_page = page;
-            button.target_page_set = pages;
+            button.target_page = page; // curent page button
+            button.target_page_set = pages; // all of the other pages inc self
 
             page.removeAttribute("title");
 
             return button;
         }
 
-// this compensates the hight when browser resets instead of hardocding a breakpoint //
         function reflowWrapSet(wrap_set) {
             const heights = [...wrap_set.children].map(getHeight);
 
@@ -98,13 +100,16 @@
                 }
 
                 if (instant) listener(event);
+
                 timer = setTimeout(deferred, 1000);
             }
+
             anchor.addEventListener(type, initial);
         }
 
         function injectPageSet(page_set) {
             const pages = getPages(page_set);
+
             // select active page
             const active_page = pages.filter(isActive)[0] ?? pages[0];
 
@@ -138,4 +143,3 @@
 
         window.addEventListener("DOMContentLoaded", injectPageSets);
     })();
-</script>

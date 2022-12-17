@@ -1,10 +1,10 @@
 body {
-  overflow-x: hidden;
+
   font-family: Sans-Serif;
   margin: 0;
 }
 
-.menu-container {
+ .menu-container {
   position: relative;
   display: flex;
   align-items: center;
@@ -29,17 +29,17 @@ body {
   flex-shrink: 0;
 }
 
-.menu-container a {
+  .menu-container a {
   text-decoration: none;
   color: #232323;
   transition: color 0.3s ease;
 }
 
-.menu-container a:hover {
+  .menu-container a:hover {
   color: #41b011;
 }
 
-.menu-container input {
+ .menu-container input {
   display: block;
   width: 35px;
   height: 25px;
@@ -52,7 +52,7 @@ body {
 }
 
 /* Burger menu */
-.menu-container span {
+  .menu-container span {
   display: block;
   width: 33px;
   height: 4px;
@@ -67,76 +67,38 @@ body {
               opacity 0.55s ease;
 }
 
-.menu-container span:first-child {
+ .menu-container span:first-child {
   transform-origin: 0% 0%;
 }
 
-.menu-container span:nth-child(3) {
+  .menu-container span:nth-child(3) {
   transform-origin: 0% 100%;
 }
 
-.menu-container input:checked ~ span {
+  .menu-container input:checked ~ span {
   opacity: 1;
   transform: rotate(45deg) translate(3px,-1px);
   background: #232323;
 }
 
-.menu-container input:checked ~ span:nth-child(4) {
+ .menu-container input:checked ~ span:nth-child(4) {
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
 }
 
-.menu-container input:checked ~ span:nth-child(3) {
+ .menu-container input:checked ~ span:nth-child(3) {
   transform: rotate(-45deg) translate(-5px,11px);
 }
 
-.menu ul {
+.menunav ul {
   list-style: none;
 }
 
-.menu li {
+.menunav li {
   padding: 10px 0;
   font-size: 22px;
 }
 
-/* mobile styles */
-@media only screen and (max-width: 762px) {
-  .menu-container {
-    flex-direction: column;
-    align-items: flex-end;
-  }
-
-  .menu-logo {
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-
-  .menu-logo img {
-    max-height: 30px;
-  }
-
-  .menu {
-    position: absolute;
-    box-sizing: border-box;
-    width: 300px;
-    right: -300px;
-    top: 0;
-    margin: -20px;
-    padding: 75px 50px 50px;
-    background: #cdcdcd;
-    -webkit-font-smoothing: antialiased;
-    /* to stop flickering of text in safari */
-    transform-origin: 0% 0%;
-    transform: translateX(0%);
-    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-  }
-
-  .menu-container input:checked ~ .menu {
-    transform: translateX(-100%);
-  }
-}
 
 /* desktop styles */
 @media only screen and (min-width: 763px) {
@@ -153,66 +115,23 @@ body {
   }
 
   /* Burger menu */
-  .menu-container span {
+ .menu-container span {
     display: none;
   }
 
-  .menu {
+  .menunav {
     position: relative;
     width: 100%;
     display: flex;
     justify-content: space-between;
   }
 
-  .menu ul {
+  .menunav ul {
     display: flex;
     padding: 0;
   }
 
-  .menu li {
+  .menunav li {
     padding: 0 20px;
   }
 }
-
-
-/* Dropdown Button */
-.dropbtn {
-  background-color: #04AA6D;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #3e8e41;}

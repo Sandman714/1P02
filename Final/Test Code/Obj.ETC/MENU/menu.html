@@ -8,18 +8,55 @@
                 <meta content="en-us" http-equiv="Content-Language" />
                 <title>This is some awesome text</title>
                 <link href="menu.css" type="text/css" rel="stylesheet" />
+                  <link href="../../NAV/NAV.CSS" type="text/css" rel="stylesheet" />
                 <script type="text/javascript" src="menu.js"></script>
         </head>
 
         <body>
-          <div id="header">header</div>
+
+          <div class="menu-container">
+            <!-- burger menu -->
+            <input type="checkbox"/>
+            <span></span>
+
+
+            <!-- logo -->
+            <a href="#" class="menu-logo">
+              <img src="Final\Assets\FatherGreenSmall.png" alt="Father Falafel Logo Small"/>
+            </a>
+
+
+            <!-- menu items -->
+            <div class="menu">
+              <ul>
+          			<li></li>
+              </ul>
+              <ul>
+                <li>
+          				<a href="Final\About\about.html">About US</a>
+          				<a href="Final\About\FAQ.html">FAQ</a>
+          				<a href="Final\About\files.html">Riles</a>
+                </li>
+                <li>
+                  <a href="#Menus">Menus</a>
+                </li>
+                <li>
+                  <a href="#Services">Services</a>
+                </li>
+                <li>
+                  <a href="#Contact"> Contact</a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+
 
         <div id="main">
-          <div class="switch-container">
+          <div class="switch-container" id="menuu">
                       <div class="selection menu" title="Menu A">
                           <h2>Food</h2>
                           <div class="wrap">
-
                     <ul>
                       	<!--so spaces does not matter bwtween tests so in order to format numbers i would need to make two columbs or 2 "lsist" or just do the worda dn price besde it -->
                         <!-- not working.... mabey forat or UL not working. Check script, then Css if clearing, then basic html. Update ULs with close brackets-->
@@ -110,7 +147,7 @@
                 <h2>Baz</h2>
                 <div class="wrap">
                     <ul>
-                        <li><h3>Baz</h3></li>
+                        <li><h3>Badddz</h3></li>
                         <li>lorem ipsum</li>
                         <li>dolor sit amet</li>
                         <li>consectetur</li>
@@ -121,7 +158,7 @@
                         <li>ut enimad</li>
                     </ul>
                     <ul>
-                        <li><h3>Baz</h3></li>
+                        <li><h3>Badsfasfz</h3></li>
                         <li>minim veniam</li>
                         <li>quis nostrud</li>
                         <li>exercitation</li>
@@ -135,15 +172,6 @@
         </div>
 	<!--3 full fixed images, then overlayed text to make it look scrolling-->
   <!-- scroll works which is great. Now will need to upload photos on google or on seed website and link to aproproate pages.-->
-
-        <div class="fixed-image" style="background-image: url(https://picsum.photos/seed/1/1280/720)"></div>
-     <p>blabla bla </p>
-     <div class="fixed-image" style="background-image: url(https://picsum.photos/seed/2/1280/720)"></div>
-     <p>Image 2 text float thing. </p>
-     <div class="fixed-image" style="background-image: url(https://picsum.photos/seed/3/1280/720)"></div>
-     <p>rpeat and recycle </p>
-     <div class="fixed-image" style="background-image: url(https://picsum.photos/seed/4/1280/720)"></div>
-     <p>dooby dooby do wap</p>
  </div>
 
  <div id="footer">footer</div>

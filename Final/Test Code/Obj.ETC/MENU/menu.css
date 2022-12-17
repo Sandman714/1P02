@@ -9,19 +9,9 @@
 
 body {
         line-height: 1.5;
+        background-color: green;
     }
 
-    /* General Size */
-    #header {
-        position: fixed;
-        width: 100%;
-        top: 0;
-        left: 0;
-        padding: 1rem;
-        border-bottom: 1px solid black;
-        z-index: 1;
-        background: white;
-    }
 
     #footer {
         padding: 1rem;
@@ -51,24 +41,24 @@ body {
 
     /* start switch style */
 
-    .switch-container .buttons {
+  .switch-container .buttons {
         text-align: center;
 
         padding: 1rem;
     }
 
-    .switch-container .buttons a {
+   .switch-container .buttons a {
         color: inherit;
 
         margin: 1rem;
     }
 
-    .switch-container .selection {
+ .switch-container .selection {
         position: absolute;
         width: 100%;
     }
 
-    .switch-container .selection:not(.active) {
+  .switch-container .selection:not(.active) {
         visibility: hidden;
     }
 
@@ -108,6 +98,12 @@ body {
         width: 40%;
     }
 
-    /* end menu style */
+ #menuu  {
 
-</style>
+ background-color: rgba(255, 255, 255, 0.5);
+ max-width: 80vw ;
+margin:  0  auto;
+
+
+    /* end menu style */
+}
