@@ -1,9 +1,9 @@
-body {
 
+body {
+  overflow-x: hidden;
   font-family: Sans-Serif;
   margin: 0;
 }
-
  .menu-container {
   position: relative;
   display: flex;
@@ -13,19 +13,18 @@ body {
   color: #cdcdcd;
   padding: 20px;
   z-index: 1;
-  -webkit-user-select: none;
-  user-select: none;
   box-sizing: border-box;
+  font-family: Sans-Serif;
 }
 
 .menu-logo {
-  line-height: 0;
+  line-height:1;
   margin: 0 20px;
 }
 
 .menu-logo img {
-  max-height: 100px;
-  max-width: 100px;
+  max-height: 500px;
+  max-width: 1200px;
   flex-shrink: 0;
 }
 
@@ -101,7 +100,7 @@ body {
 
 
 /* desktop styles */
-@media only screen and (min-width: 763px) {
+@media only screen and (min-width: 600px) {
   .menu-container {
     width: 100%;
   }
