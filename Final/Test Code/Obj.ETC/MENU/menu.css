@@ -1,6 +1,7 @@
 * {
         position: relative;
         box-sizing: border-box;
+
     }
     body, html {
         padding: 0;
@@ -9,8 +10,7 @@
 
 body {
         line-height: 1.5;
-        background-color: grey;
-         background-image: url("https://www.shutterstock.com/image-photo/chopping-board-seasonings-rosemary-on-dark-236994979");
+         background-image: url("menubackk.jpg");
     }
 
 

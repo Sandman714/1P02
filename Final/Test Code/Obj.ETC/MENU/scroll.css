@@ -1,0 +1,44 @@
+* {
+        position: relative;
+        box-sizing: border-box;
+    }
+    body, html {
+        padding: 0;
+        margin: 0;
+    }
+
+body {
+        line-height: 1.5;
+         background-image: url("Wood.jpg");
+    }
+
+p {
+
+background-color: rgba(200, 185, 170, 0.75);
+  padding:  0;
+  margin: 00.001;
+}
+
+    #footer {
+        padding: 0rem;
+        border-top: 0x solid black;
+    }
+
+    #main {
+        /* header height */
+        margin: calc(1px + 3.5rem) auto 0 auto;
+        /* screen - (footer+header) height */
+        min-height: calc(100vh - 2px - 7rem);
+        max-width: 1600px;
+    }
+
+
+    /* start article styles */
+
+    .fixed-image {
+        min-height: 25rem;
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
