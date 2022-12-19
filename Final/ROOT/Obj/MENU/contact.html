@@ -6,8 +6,9 @@
                 <!--The head contains all of the confirguration items for our page-->
                 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
                 <meta content="en-us" http-equiv="Content-Language" />
-                <title>This is some awesome text</title>
+                <title>Booking Page + Map</title>
                 <link href="contact.css" type="text/css" rel="stylesheet" />
+                <link href="menu.css" type="text/css" rel="stylesheet" />
                   <link href="../../NAV/NAV.CSS" type="text/css" rel="stylesheet" />
 		            	<link href="scroll.css" type="text/css" rel="stylesheet" />
                   <link href="../../NAV/FOOT.CSS" type="text/css" rel="stylesheet" />
@@ -54,104 +55,44 @@
 
                         </div>
 
-                          <form class="form-horizontal">
-                          <fieldset>
 
-                          <!-- Form Name -->
-                          <legend>Form Name</legend>
 
-                          <!-- Text input-->
-                          <div class="form-group">
-                            <label class="col-md-4 control-label" for="Full Name">Full Name</label>
-                            <div class="col-md-4">
-                            <input id="Full Name" name="Full Name" type="text" placeholder="" jhon="" doe""="" class="form-control input-md">
+                        <div id="main">
 
-                            </div>
-                          </div>
 
-                          <!-- Text input-->
-                          <div class="form-group">
-                            <label class="col-md-4 control-label" for="Phone">Phone #</label>
-                            <div class="col-md-4">
-                            <input id="Phone" name="Phone" type="text" placeholder="" class="form-control input-md">
+                          <div class="switch-container" id="menuu">
+                            <p style="text-align:center;"> <strong> Our Location</strong> </p>
+                            <div class="hours"> Hours are non existant but probabaly serve like a normal place, Closed monday and Tuesday. Open from 11am-11pm Wed-Sunday</div>
+<div class="menuu">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2907.4159433068844!2d-79.12539492340957!3d43.221738180229124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d3593a5c3d3f05%3A0x9a4a1acd2c118abb!2sSono&#39;s%20Cafe!5e0!3m2!1sen!2sca!4v1671401272868!5m2!1sen!2sca" width="1530" height="650" style="border:3px;"></iframe>
+</div>
+</div>
+</div>
 
-                            </div>
-                          </div>
+<div class="formm">
+<form action="/action_page.php">
+  <div for="fname">Full Name:</div><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Email:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br>
+  <label for="fname">Phone Number</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
 
-                          <!-- Button (Double) -->
-                          <div class="form-group">
-                            <label class="col-md-4 control-label" for="lunchbutton">Reservation for</label>
-                            <div class="col-md-8">
-                              <button id="lunchbutton" name="lunchbutton" class="btn btn-info">Lunch</button>
-                              <button id="dinnerbutton" name="dinnerbutton" class="btn btn-info">Dinner</button>
-                            </div>
-                          </div>
+  <p> Occasion for the reservation?? </p>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1">Anniversary</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2">Date</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> Other</label> <br>
 
-                          <!-- Textarea -->
-                          <div class="form-group">
-                            <label class="col-md-4 control-label" for="allergies">Allergies // Food Restrictions</label>
-                            <div class="col-md-4">
-                              <textarea class="form-control" id="allergies" name="allergies">Pork for example?</textarea>
-                            </div>
-                          </div>
+  <label for="fname">If you ave any special requests or any allergies / food trsitcitons please let us know:</label><br>
+  <input type="text" id="fname" value=""Penuts""><br><br>
 
-                          <!-- Multiple Checkboxes -->
-                          <div class="form-group">
-                            <label class="col-md-4 control-label" for="checkboxes">Occasion?</label>
-                            <div class="col-md-4">
-                            <div class="checkbox">
-                              <label for="checkboxes-0">
-                                <input type="checkbox" name="checkboxes" id="checkboxes-0" value="1">
-                                Anniversary
-                              </label>
-                          	</div>
-                            <div class="checkbox">
-                              <label for="checkboxes-1">
-                                <input type="checkbox" name="checkboxes" id="checkboxes-1" value="2">
-                                Proposal
-                              </label>
-                          	</div>
-                            <div class="checkbox">
-                              <label for="checkboxes-2">
-                                <input type="checkbox" name="checkboxes" id="checkboxes-2" value="3">
-                                Work Event
-                              </label>
-                          	</div>
-                            <div class="checkbox">
-                              <label for="checkboxes-3">
-                                <input type="checkbox" name="checkboxes" id="checkboxes-3" value="4">
-                                General
-                              </label>
-                          	</div>
-                            <div class="checkbox">
-                              <label for="checkboxes-4">
-                                <input type="checkbox" name="checkboxes" id="checkboxes-4" value="5">
-                                To eat
-                              </label>
-                          	</div>
-                            </div>
-                          </div>
+  <input type="submit" value="Submit">
+</form>
 
-                          <!-- Select Basic -->
-                          <div class="form-group">
-                            <label class="col-md-4 control-label" for="Dropdown">Proof i can do a dropdown?</label>
-                            <div class="col-md-2">
-                              <select id="Dropdown" name="Dropdown" class="form-control">
-                                <option value="1">Yes</option>
-                                <option value="2">I</option>
-                                <option value="3">Can</option>
-                              </select>
-                            </div>
-                          </div>
-
-                          </fieldset>
-                          </form>
-
-<div> <strong>Our Location</strong> </div>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2907.4159433068844!2d-79.12539492340957!3d43.221738180229124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d3593a5c3d3f05%3A0x9a4a1acd2c118abb!2sSono&#39;s%20Cafe!5e0!3m2!1sen!2sca!4v1671401272868!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-<div class="hours">
-  <label for="hours"> Hours are non existant but probabaly serve like a normal place, Closed monday and Tuesday. Open from 11am-11pm Wed-Sunday</label>
+</div>
 
   <!--  this makes the ysmbol white when highlighted
   https://www.w3schools.com/howto/howto_css_social_media_buttons.asp

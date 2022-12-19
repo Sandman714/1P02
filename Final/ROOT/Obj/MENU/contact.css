@@ -1,0 +1,25 @@
+.maps{
+
+  text-align: center;
+  object-position: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  max-width: 80vw ;
+ margin:  0  auto;
+
+}
+
+.hours {
+
+  text-align: center;
+  left: 0%;
+  bottom: 80%;
+  border: 30px;
+  margin: 30px
+  top: 150px;
+}
+
+.formm {
+  text-align: left;
+background-color: rgba(255, 255, 255, 0.5);
+top: 30%;
+}
