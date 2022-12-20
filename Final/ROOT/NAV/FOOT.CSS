@@ -77,6 +77,9 @@ cool fade in effect transition:all _time pattern*/
   background-color:#8b0000
 }
 
+.social-icons a.google:hover {
+  background-color:#28b048
+}
 .footer {
   position: fixed;
   left: 0;
