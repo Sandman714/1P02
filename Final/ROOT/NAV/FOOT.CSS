@@ -62,7 +62,7 @@ https://www.w3schools.com/howto/howto_css_social_media_buttons.asp
 cool fade in effect transition:all _time pattern*/
 .social-icons a:active,.social-icons a:focus,.social-icons a:hover {
   color:#fff;
-  background-color:#10a0fe
+  background-color:#28b048
 }
 
 .social-icons a.twitter:hover {
